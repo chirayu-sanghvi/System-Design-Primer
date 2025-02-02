@@ -3,6 +3,11 @@ package designpatterns.Builder;
 public class HawaiianPizzaBuilder implements PizzaBuilder{
 
     private Pizza pizza;
+
+    public HawaiianPizzaBuilder() {
+        this.pizza = new Pizza();
+    }
+
     @Override
     public void buildDough() {
         pizza.setDough("thin crust");

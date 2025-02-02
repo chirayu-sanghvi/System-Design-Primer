@@ -1,5 +1,4 @@
 package designpatterns.Builder;
-
 public class BuilderDemo {
     public static void main(String[] args) {
         Waiter waiter = new Waiter();
